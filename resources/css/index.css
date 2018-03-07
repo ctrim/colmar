@@ -1,10 +1,28 @@
+/*universal*/
+
+html {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.66rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
 /*header*/
 
 header {
 	display: flex;
 	justify-content: space-between;
 	padding: 16px 24px;
-	border-bottom: 1px #527A8D solid;
+	border-bottom: 1px #011C4B solid;
 }
 
 .logo {
@@ -26,4 +44,54 @@ ul li {
 
 nav a:hover {
 	opacity: 0.5;
+}
+
+/*banner*/
+
+.info {
+	display: flex;
+	max-height: 600px;
+	min-height: 300px;
+	padding: 32px 24px;
+	background-color: #8C9096;
+}
+
+.info img {
+	display: block;
+	max-width: 60%;
+	width: auto;
+	height: auto;
+}
+
+.banner-text {
+	position: relative;
+	left: 24px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner-text h1,
+.banner-text h3 {
+	margin-right: 64px;
+	margin-bottom: 32px;
+}
+
+.banner-text h1 span {
+	opacity: 0.5;
+	text-transform: uppercase;
+}
+
+.button.start {
+	background-color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 8px;
+	margin-bottom: 0;
+}
+
+.button.start:hover {
+	background-color: black;
+	color: white;
 }

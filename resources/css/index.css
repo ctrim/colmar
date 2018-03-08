@@ -1,3 +1,5 @@
+/*color palette http://paletton.com/#uid=13H0u0kllllUheiuShObOoS2fso */
+
 /*universal*/
 
 html {
@@ -48,15 +50,14 @@ nav a:hover {
 
 /*banner*/
 
-.info {
+.banner {
 	display: flex;
-	max-height: 600px;
-	min-height: 300px;
+	max-height: 500px;
 	padding: 32px 24px;
 	background-color: #8C9096;
 }
 
-.info img {
+.banner img {
 	display: block;
 	max-width: 60%;
 	width: auto;
@@ -94,4 +95,42 @@ nav a:hover {
 .button.start:hover {
 	background-color: black;
 	color: white;
+}
+
+/*information*/
+
+.info {
+	display: flex;
+
+	padding: 32px 24px;
+	border: 1px red solid;
+}
+
+.practice {
+	width: 60%;
+}
+
+.practice img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 32px;
+}
+
+.practice p {
+	margin: 24px 0;
+}
+
+.events {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.event-block {
+	display: flex;
+}
+
+.event-block img {
+	width: 35%;
+
 }
